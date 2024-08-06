@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar-brand .icon {
+    margin-left: 5px; 
+    margin-right: 5px; 
+}
+
+.navbar-brand .easy-monday {
+    color: orange;
+    font-weight: bold;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1rem; 
+}
+
+.btn-account {
+    background: linear-gradient(to right, #f09819, #edde5d);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-account:hover {
+    background: linear-gradient(to right, #edde5d, #f09819);
+    color: white;
+}
+
+.btn-register {
+    background: linear-gradient(to right, #f09819, #edde5d);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-register:hover {
+    background: linear-gradient(to right, #edde5d, #f09819);
+    color: white;
+}
+
+.jumbotron {
+    margin-top: 2rem;
+    background-color: rgba(243, 170, 37, 0.8);
+    width: 100%;
+    border-radius: 0;
+    padding: 2rem;
+}
+
+.jumbotron h1, .jumbotron .lead {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.jumbotron .lead {
+    font-weight: normal;
+    font-size: 1.25em;
+}
+
+.container {
+    padding: 0 15px;
+}
+
+.card.custom-card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card.custom-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card-title {
+    color: orange;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.card-text {
+    font-size: 1.2em;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        margin-top: 2rem;
+    }
+
+    .navbar-brand {
+        flex-wrap: wrap;
+    }
+
+    .navbar-brand .task-manager {
+        margin-top: 0.5rem;
+    }
+
+    .btn-account, .btn-register {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .jumbotron h1 {
+        font-size: 2em;
+    }
+
+    .jumbotron .lead {
+        font-size: 1em;
+    }
+
+    .card-title {
+        font-size: 1.25em;
+    }
+
+    .card-text {
+        font-size: 1em;
+    }
+
+    .footer {
+        padding: 1rem 0;
+    }
+
+    .footer a {
+        margin: 0 0.5rem;
+    }
+}
