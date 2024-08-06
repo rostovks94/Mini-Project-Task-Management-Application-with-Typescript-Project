@@ -50,11 +50,6 @@ task-dashboard/
 
 ## Setup and Installation
 
-### Prerequisites
-
-- Node.js (>= 14.x)
-- npm (>= 6.x)
-
 ### Installation
 
 1. Clone the repository:
