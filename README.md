@@ -1,75 +1,82 @@
-# Task Management Application with Typescript
+Task Management Application with TypeScript
+This project is a Task Management Application built using TypeScript and React. It provides a functional and interactive interface for managing tasks, including features such as task lists, creation, editing, and deletion. The project was completed as part of a homework assignment during the Coding Temple bootcamp.
 
-## Overview
-
-This is a Task Management Application built with TypeScript, React, and Auth0 for authentication. The application allows users to register, log in, create, view, and manage tasks.
-
-## Features
-
-- User Registration
-- User Login
-- Google Authentication
-- Create, View, Edit, and Delete Tasks
-- Mark Tasks as Completed
-
-## Project Structure
+Features
+Task Dashboard Page:
+Manage tasks through a dashboard interface, including task viewing, creation, editing, and deletion.
+Task Details Page:
+Displays detailed information for individual tasks, with the ability to modify task details.
+Task Creation and Editing Pages:
+Forms for creating and editing tasks, with TypeScript types for data validation and error handling.
+Authentication and Authorization Pages:
+User authentication implemented using Auth0, including registration, login, and password reset functionalities.
+State Management with Typed Hooks:
+Utilize React's useState and useReducer hooks with TypeScript to manage application state effectively.
+Context API for Global State Management:
+Implemented Context API in React with TypeScript for global state management and data sharing between components.
+Error Handling and Validation:
+TypeScript types were used to handle error objects and provide smooth form validation.
+Project Structure
+The structure of the project is as follows:
 
 task-dashboard/
-│
 ├── public/
+│   ├── images/
+│   ├── favicon.ico
 │   ├── index.html
-│   └── …
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
 ├── src/
 │   ├── components/
-│   │   ├── Dashboard.tsx
-│   │   ├── Footer.tsx
-│   │   ├── Home.tsx
-│   │   ├── Login.tsx
-│   │   ├── Register.tsx
-│   │   ├── Register1.tsx
-│   │   ├── ResetPassword.tsx
-│   │   ├── TaskDetails.tsx
-│   │   └── TaskForm.tsx
 │   ├── context/
-│   │   ├── actions.ts
-│   │   ├── reducer.ts
-│   │   ├── TaskContext.tsx
-│   │   └── types.ts
 │   ├── css/
-│   │   ├── login.css
-│   │   ├── register.css
-│   │   ├── dashboard.css
-│   │   ├── styles.css
 │   ├── utils/
-│   │   └── auth.ts
-│   ├── App.tsx
 │   ├── App.css
+│   ├── App.test.tsx
+│   ├── App.tsx
+│   ├── auth0-config.ts
+│   ├── index.css
 │   ├── index.tsx
-│   └── …
-└── …
+│   ├── logo.svg
+│   ├── react-app-env.d.ts
+│   ├── reportWebVitals.ts
+│   ├── setupTests.ts
+│   └── useTask.ts
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── README.md
+└── tsconfig.json
 
-## Setup and Installation
-
-### Installation
-
+Technology Stack
+TypeScript: Used to ensure type safety and enhanced code maintainability.
+React: For building the user interface with reusable components.
+Auth0: For implementing authentication and authorization.
+Vite: As the build tool for faster development and optimized production build.
+How to Run the Project Locally
 1. Clone the repository:
 
-```bash
-git clone git@github.com:rostovks94/Mini-Project-Task-Management-Application-with-Typescript-Project.git
-cd Mini-Project-Task-Management-Application-with-Typescript-Project
+git clone https://github.com/your-github-repository/task-dashboard.git
 
-	2.	Install the dependencies:
+2. Navigate to the project directory:
 
-npm install
+   cd task-dashboard
 
-	3.	Create a .env file in the root of the project and add your Auth0 configuration:
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+5. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-REACT_APP_AUTH0_DOMAIN=your-auth0-domain
-REACT_APP_AUTH0_CLIENT_ID=your-auth0-client-id
+7. Open your browser and navigate to:
+   http://localhost:5173
 
-	4.	Start the development server:
+## Conclusion
+This project demonstrates the practical implementation of TypeScript in a React application to build a Task Management tool with state management, authentication, and error handling. The completion of this task as part of the **Coding Temple** Bootcamp showcases both front-end development skills and the ability to work with type-safe code using TypeScript.
 
-npm start
-
-The application will be available at http://localhost:3000.
 
