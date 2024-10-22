@@ -17,7 +17,6 @@ The structure of the project is as follows:
 ```bash
 task-dashboard/
 ├── public/
-│   ├── images/
 │   ├── favicon.ico
 │   ├── index.html
 │   ├── logo192.png
@@ -26,7 +25,20 @@ task-dashboard/
 │   └── robots.txt
 ├── src/
 │   ├── components/
+│   │   ├── Dashboard.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Home.tsx
+│   │   ├── Login.tsx
+│   │   ├── Register.tsx
+│   │   ├── Register1.tsx
+│   │   ├── ResetPassword.tsx
+│   │   ├── TaskDetails.tsx
+│   │   └── TaskForm.tsx
 │   ├── context/
+│   │   ├── actions.ts
+│   │   ├── reducer.ts
+│   │   ├── TaskContext.tsx
+│   │   └── types.ts
 │   ├── css/
 │   ├── utils/
 │   ├── App.css
