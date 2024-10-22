@@ -68,9 +68,9 @@ task-dashboard/
 ## Running the Project Locally
    
 1. **Clone the repository**:
-  ```bash
-  https://github.com/rostovks94/Mini-Project-Task-Management-Application-with-Typescript-Project.git
-  ```
+   ```bash
+   https://github.com/rostovks94/Mini-Project-Task-Management-Application-with-Typescript-Project.git
+   ```
 2. **Navigate to the project directory**:
    ```bash
    cd task-dashboard
