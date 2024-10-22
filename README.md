@@ -57,7 +57,7 @@ task-dashboard/
    ```bash
 1. **Clone the repository**:
    ``` 
-   git clone https://github.com/your-github-repository/task-dashboard.git
+  https://github.com/rostovks94/Mini-Project-Task-Management-Application-with-Typescript-Project.git
 
 2. **Navigate to the project directory**:
    ```bash
